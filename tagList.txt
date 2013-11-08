@@ -1,4 +1,0 @@
-u1webapp-20
-u1webapp-ca-20
-u1webapp-uk-21
-u1webapp-fr-21
