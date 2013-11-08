@@ -1,0 +1,28 @@
+{
+  "name": "Ubuntu Affiliate Redirect",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Redirects links on Amazon to be tagged with the Ubuntu affiliate codes.",
+  "page_action" :
+  {
+    "default_icon" : "icon-128.png",
+
+    "default_title" : "Ubuntu Affiliate Redirect"
+  },
+  
+  "icons": {	"16": "icon-16.png",
+				"48": "icon-48.png",
+				"128": "icon-128.png" },
+				
+  "permissions": [  "webRequest", "webRequestBlocking", 
+                      "*://*.amazon.com/*",
+                      "*://*.amazon.co.uk/*",
+                      "*://*.amazon.de/*",
+                      "*://*.amazon.ca/*",
+                      "*://*.amazon.fr/*",
+		      "tabs"
+                 ], 
+	"background": {
+		"scripts": ["background.js"]
+  }
+}
