@@ -2,7 +2,7 @@
 
 Use the .crx file to install the extension. If needed, check out this youtube video http://www.youtube.com/watch?v=SMgkbGICBiE on how to do this.
 
-This is also the extension for newer versions of Opera. At the time of writing, these versions are not available for Linux.
+This is also the extension for newer versions of Opera. At the time of writing, these newer versions are not available for Linux.
 
 # Other
 
